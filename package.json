@@ -1,0 +1,23 @@
+{
+  "name": "discord.ts",
+  "version": "1.0.0",
+  "description": "Discord Bot Template made with Typescript",
+  "main": "src/index.ts",
+  "scripts": {
+    "deploy": "ts-node src/util/deploy-commands.ts && ts-node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lucius/Discord-TS-Bot-Template.git"
+  },
+  "author": "github.com/Lucius",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lucius/Discord-TS-Bot-Template/issues"
+  },
+  "homepage": "https://github.com/Lucius/Discord-TS-Bot-Template#readme",
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "fs": "^0.0.1-security"
+  }
+}
